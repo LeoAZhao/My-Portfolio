@@ -15,7 +15,9 @@ h1{
 }
 
 p{
-    color: black;
+    color: rgb(48, 48, 107);
+    font-family: verdana;
+
 }
 
 img {
@@ -40,14 +42,30 @@ a {
     display: grid;
     grid-template-columns: 1fr;
     background-color: aqua;
-    padding: 10px; 
+    padding: 100px 10px; 
 }
 
 .container div {
     padding: 10px;
     font-size: 30px;
+    text-align: center;
+}
+
+.container div a {
+    background-color: rgb(186, 243, 240);
+    border: 5px solid rgb(24, 20, 59) ;
+    border-radius: 25px;
+    padding: 10px;
+    text-decoration: none;
+    color: black;
+    
 
 }
+.container div a:hover {
+    background-color: rgb(88, 145, 179) ;
+    color: white;
+}
+
 
 .menu {
     display: flex;
@@ -67,8 +85,13 @@ a {
 }
 
 .menu div a:hover {
-    background-color: rgb(54, 125, 192);
-    color: #351c55;
+    background-color: rgb(95, 167, 235);
+    color: #221238;
+}
+
+.container div a img {
+    width: 1cm;
+    height: 1cm;
 }
 
 @keyframes MyAnimation {
