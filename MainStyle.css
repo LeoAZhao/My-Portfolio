@@ -1,15 +1,6 @@
 body{
-    background-color: rgb(168, 194, 252);
     margin: 0px;
-    padding: 0px;
-    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-url(Images/Background.jpg);
-    
-}
-
-.background_tint {
-    background-color: rgba(0,0,0,0.5);
-    background-blend-mode: multiply;
+    padding: 0px;    
 }
 
 h1{
@@ -39,10 +30,7 @@ a {
 }
 
 
-.container {
-    display: grid;
-    grid-template-columns: 1fr;
-    
+.container { 
     padding: 100px 10px; 
     margin: 20px;
     border-radius: 50px;
@@ -94,9 +82,4 @@ nav div a:hover {
 .container div a img {
     width: 1cm;
     height: 1cm;
-}
-
-@keyframes MyAnimation {
-    from {background-color: aqua;}
-    to {background-color: beige;}
 }

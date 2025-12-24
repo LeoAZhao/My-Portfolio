@@ -1,19 +1,39 @@
+body {
+    background-color: white;
+}
+
 .block {
     padding: 0px 0px 0px 30px;
+    background-color: white;
     
 }
 
+.title_image {
+    background: linear-gradient(rgba(0,0,0,0), rgba(0, 0, 0, 1)), url(Images/Background.jpg);
+}
+
+h1 {
+    margin: 50px;
+    padding: 50px 0px 300px 0px;
+    font-size: 800%;
+}
+
 .block h2 {
-    color: #ffffff;
+    color: #000000;
     font-size: 200%;
 }
 
 .block p {
-    color: #ffffff;
+    color: #000000;
     font-size: 100%;
+    width: 50%;
 }
 
 img {
     width: 30%;
     height: 30%;
+    border: 10px solid black;
+    border-radius: 10px;
+
 }
+
