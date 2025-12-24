@@ -1,0 +1,19 @@
+.block {
+    padding: 0px 0px 0px 30px;
+    
+}
+
+.block h2 {
+    color: #ffffff;
+    font-size: 200%;
+}
+
+.block p {
+    color: #ffffff;
+    font-size: 100%;
+}
+
+img {
+    width: 30%;
+    height: 30%;
+}
