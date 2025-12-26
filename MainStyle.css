@@ -82,3 +82,7 @@ nav div a:hover {
 .icon {
     height: 1cm;
 }
+
+.current {
+    background-color: #0024558e;
+}
