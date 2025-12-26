@@ -58,3 +58,28 @@ h1 {
 .icon {
     height: 1cm;
 }
+
+.button {
+    background-color: rgb(255, 255, 255);
+    border: 3px solid rgb(24, 20, 59) ;
+    border-radius: 25px;
+    padding: 10px;
+    text-decoration: none;
+    color: black;
+    margin-left: 20%;
+}
+
+
+.button:hover {
+    box-shadow:  0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.button img {
+    vertical-align: -25%;
+    margin-right: 5px;
+
+}
+
+.bottom_space {
+    padding-top: 100px;
+}
