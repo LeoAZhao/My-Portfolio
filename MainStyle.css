@@ -1,20 +1,21 @@
 body{
     margin: 0px;
-    padding: 0px;    
+    padding: 0px; 
+    font-family: "Raleway", sans-serif;
+    font-weight: 200;
+    font-style: normal;  
 }
 
 h1{
     color: rgb(255, 255, 255);
-    font-family: verdana;
     font-size: 300%;
+    font-weight: 100;
     text-align: center;
 }
 
 p{
     color: rgb(255, 255, 255);
-    font-family: verdana;
     font-size: 150%;
-
 }
 
 a {

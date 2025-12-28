@@ -1,0 +1,43 @@
+.box {
+    background-color: rgb(0, 89, 124);
+    vertical-align: middle;
+    margin: 5% 25%;
+}
+
+.grid_lay {
+    display: grid;
+    grid-template-columns: 2fr 3fr;
+    position: relative;
+    height: 600px;
+    box-shadow: 10px 10px 3px rgba(0, 0, 0, 0.781);
+}
+
+.grid_lay div {
+    padding: 10px;
+}
+
+.portrait {
+    height: 500px;
+    border: 10px solid rgb(39, 39, 39);
+    position: absolute;
+    transform: translate(-15%, 5%);
+}
+
+h2 {
+    font-size: 400%;
+    color: white;
+}
+
+p {
+    font-size: 150%;
+}
+
+.clipart {
+    height: 60px;
+    margin:5px;
+}
+
+h3 {
+    color: white;
+    font-size: 200%;
+}
